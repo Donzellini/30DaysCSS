@@ -1,9 +1,32 @@
 *{
     background-color: gray;
+    margin: 0;
+    padding: 0;
 }
 
-.icons {
+.title {
+    text-align: center;
+    font-size: 2rem;
+}
+
+.container {
+    position: inherit;
+}
+
+.child {
     display: flex;
     flex-direction: row;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
+
+img {
+    width:  100px;
+    height: 100px;
+    padding: 8px;
+}
+
+
 
