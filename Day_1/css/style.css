@@ -1,19 +1,14 @@
-*{
-    background-color: gray;
+body {
     margin: 0;
     padding: 0;
-}
-
-.title {
-    text-align: center;
-    font-size: 2rem;
+    width: 100%;
+    height: 100vh;
 }
 
 .container {
-    position: inherit;
-}
-
-.child {
+    position: relative;
+    display: flex;
+    flex-direction: row;
     display: flex;
     flex-direction: row;
     position: absolute;
@@ -22,7 +17,27 @@
     transform: translate(-50%, -50%);
 }
 
-img {
+.container img {
+    width:  100px;
+    height: 100px;
+    padding: 8px;
+    position: relative;
+}
+
+.dragon {
+    width:  100px;
+    height: 100px;
+    padding: 8px;
+    
+}
+
+.phoenix {
+    width:  100px;
+    height: 100px;
+    padding: 8px;
+}
+
+.unicorn {
     width:  100px;
     height: 100px;
     padding: 8px;
