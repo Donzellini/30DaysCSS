@@ -1,0 +1,9 @@
+*{
+    background-color: gray;
+}
+
+.icons {
+    display: flex;
+    flex-direction: row;
+}
+
