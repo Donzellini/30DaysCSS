@@ -21,14 +21,34 @@ body {
     width:  100px;
     height: 100px;
     padding: 8px;
-    position: relative;
+    position: absolute;
+    transition: 0.5s;
 }
 
 .dragon {
     width:  100px;
     height: 100px;
-    padding: 8px;
-    
+    padding: 8px;    
+}
+
+.dragon:hover img:nth-child(4) {
+    transform: translateY(-50px);
+    opacity: 1;
+}
+
+.dragon:hover img:nth-child(3) {
+    transform: translateY(-40px);
+    opacity: 0.8;
+}
+
+.dragon:hover img:nth-child(2) {
+    transform: translateY(-30px);
+    opacity: 0.6;
+}
+
+.dragon:hover img:nth-child(1) {
+    transform: translateY(-20px);
+    opacity: 0.4;
 }
 
 .phoenix {
@@ -37,10 +57,54 @@ body {
     padding: 8px;
 }
 
+.phoenix:hover img:nth-child(4) {
+    transform: translateY(-50px);
+    opacity: 1;
+}
+
+.phoenix:hover img:nth-child(3) {
+    transform: translateY(-40px);
+    opacity: 0.8;
+}
+
+.phoenix:hover img:nth-child(2) {
+    transform: translateY(-30px);
+    opacity: 0.6;
+}
+
+.phoenix:hover img:nth-child(1) {
+    transform: translateY(-20px);
+    opacity: 0.4;
+}
+
 .unicorn {
     width:  100px;
     height: 100px;
     padding: 8px;
+}
+
+.unicorn:hover img:nth-child(4) {
+    transform: translateY(-50px);
+}
+
+.unicorn:hover img:nth-child(4) {
+    transform: translateY(-50px);
+    opacity: 1;
+}
+
+.unicorn:hover img:nth-child(3) {
+    transform: translateY(-40px);
+    opacity: 0.8;
+}
+
+.unicorn:hover img:nth-child(2) {
+    transform: translateY(-30px);
+    opacity: 0.6;
+}
+
+.unicorn:hover img:nth-child(1) {
+    transform: translateY(-20px);
+    opacity: 0.4;
 }
 
 
