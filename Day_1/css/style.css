@@ -12,100 +12,92 @@ body {
     display: flex;
     flex-direction: row;
     position: absolute;
-    top: 50%;
+    top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
 
 .container img {
-    width:  100px;
-    height: 100px;
-    padding: 8px;
+    width:  20vw;
+    height: auto;
     position: absolute;
     transition: 0.5s;
 }
 
 .dragon {
-    width:  100px;
-    height: 100px;
-    padding: 8px;    
+    width:  20vw;
+    height: auto;
+    padding: 18px;    
 }
 
 .dragon:hover img:nth-child(4) {
-    transform: translateY(-50px);
+    transform: translateY(-1.4em);
     opacity: 1;
 }
 
 .dragon:hover img:nth-child(3) {
-    transform: translateY(-40px);
+    transform: translateY(-1em);
     opacity: 0.8;
 }
 
 .dragon:hover img:nth-child(2) {
-    transform: translateY(-30px);
+    transform: translateY(-0.6em);
     opacity: 0.6;
 }
 
 .dragon:hover img:nth-child(1) {
-    transform: translateY(-20px);
+    transform: translateY(-0.2em);
     opacity: 0.4;
 }
 
 .phoenix {
-    width:  100px;
-    height: 100px;
-    padding: 8px;
+    width:  20vw;
+    height: auto;
+    padding: 18px;
 }
 
 .phoenix:hover img:nth-child(4) {
-    transform: translateY(-50px);
+    transform: translateY(-1.4em);
     opacity: 1;
 }
 
 .phoenix:hover img:nth-child(3) {
-    transform: translateY(-40px);
+    transform: translateY(-1em);
     opacity: 0.8;
 }
 
 .phoenix:hover img:nth-child(2) {
-    transform: translateY(-30px);
+    transform: translateY(-0.6em);
     opacity: 0.6;
 }
 
 .phoenix:hover img:nth-child(1) {
-    transform: translateY(-20px);
+    transform: translateY(-0.2em);
     opacity: 0.4;
 }
 
 .unicorn {
-    width:  100px;
-    height: 100px;
-    padding: 8px;
+    width:  20vw;
+    height: auto;
+    padding: 18px;
 }
 
 .unicorn:hover img:nth-child(4) {
-    transform: translateY(-50px);
-}
-
-.unicorn:hover img:nth-child(4) {
-    transform: translateY(-50px);
+    transform: translateY(-1.4em);
     opacity: 1;
 }
 
 .unicorn:hover img:nth-child(3) {
-    transform: translateY(-40px);
+    transform: translateY(-1em);
     opacity: 0.8;
 }
 
 .unicorn:hover img:nth-child(2) {
-    transform: translateY(-30px);
+    transform: translateY(-0.6em);
     opacity: 0.6;
 }
 
 .unicorn:hover img:nth-child(1) {
-    transform: translateY(-20px);
+    transform: translateY(-0.2em);
     opacity: 0.4;
 }
-
-
-
