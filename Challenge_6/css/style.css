@@ -1,0 +1,36 @@
+* {
+    display: border-box;
+    margin: 0;
+    padding: 0;
+    /* background-image: url(color-splash.jpg); */
+}
+
+/* .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    font-family: Arial;
+    text-transform: uppercase;
+} */
+
+body, h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    font-family: Arial;
+}
+
+.text-container h1 {
+    text-transform: uppercase;
+    font-size: 10vw;
+    /* color: rgba(225, 225, 225, .1); */
+    background-image: url(color-splash.jpg);
+    background-size: contain;
+    background-repeat: repeat-x;
+    /* -webkit-text-fill-color : transparent; */
+    -webkit-background-clip: text;
+}
