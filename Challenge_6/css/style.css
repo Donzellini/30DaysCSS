@@ -26,11 +26,25 @@ body, h1 {
 
 .text-container h1 {
     text-transform: uppercase;
-    font-size: 10vw;
+    font-size: 20vw;
     /* color: rgba(225, 225, 225, .1); */
     background-image: url(color-splash.jpg);
-    background-size: contain;
+    background-size: cover; /* shows the image into the text area*/
     background-repeat: repeat-x;
-    /* -webkit-text-fill-color : transparent; */
+    -webkit-text-fill-color : transparent;
     -webkit-background-clip: text;
+    animation: animate 15s  infinite;
+}
+
+@keyframes animate {
+
+    0%{
+        background-position: left 0px top 10px;
+    }
+
+    40%{
+        background-position: left 800px top 10px;
+    }
+
+
 }
